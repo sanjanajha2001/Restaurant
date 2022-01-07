@@ -1,0 +1,378 @@
+.navbar{
+    height: 200px;
+    width: 100%;
+    background-color: #f6b319;
+}
+/* .yellow-box{
+    display: none;
+} */
+.aadillogo{
+    height: 150px;
+    width: 150px;
+    margin-left: 350px;
+    margin-top: 27px;
+}
+.star{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+.purple-box{
+    width: 100%;
+    height: 1150px;
+    background-color: #61122f;
+    position: relative;
+    bottom: 33px;
+}
+.image{
+    height: 700px;
+    width: 63%;
+    margin-left: 19%;
+    margin-top: 2px;
+    border-radius: 10px;
+    border: 2px;
+    border-color: solid black;
+    border-style: solid;
+    border-width: 1px;
+
+}
+.main-heading{
+    color: green;
+    margin-left: 515px;
+    bottom: 165px;
+    position: relative;
+}
+.sub-heading{
+    margin-left: 555px;
+    bottom: 167px;
+    position: relative;
+}
+.number{
+    margin-left: 72%;
+    font-size: 31px;
+    color: #61122f;
+    bottom: 268px;
+    position: relative;
+}
+.sub-title{
+    margin-left: 77%;
+    color: green;
+    font-size: 17px;
+    bottom: 299px;
+    position: relative;
+}
+.food-box{
+    display: flex;
+    background-color:transparent;
+    margin-left: 300px;
+}
+.foodpic{
+    height: 250px;
+    width: 315px;
+    margin: 50px;
+    border-style: solid;
+  border-width: 2px;
+}
+.last-box{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    bottom: 33px;
+    
+}
+.main-black-box{
+    height: 350px;
+    width: 70%;
+    background-color:transparent;
+    position: relative;
+    display: flex;
+    left: 320px;
+}
+.black-box1{
+    height: 400px;
+    width: 400px;
+    margin: 60px;
+    color: white;
+    margin-right: 60px;
+}
+.black-box2{
+    height: 400px;
+    width: 400px;
+    margin: 60px;
+    color: white;
+    margin-right: 60px;
+}
+.black-box3{
+    height: 400px;
+    width: 400px;
+    margin: 60px;
+    color: white;
+    margin-right: 60px;
+}
+h3{
+    color: white;
+    margin-left: 870px;
+}
+h5{
+    color: green;
+}
+.main-pic-box{
+    display: flex;
+    background-color:transparent;
+    margin-left: 300px;
+    bottom: 155px;
+    position: relative;
+
+}
+.pic-box1{
+    height: 50px;
+    width: 318px;
+    margin: 50px;
+    background-color:black;
+    opacity: 0.8;
+}
+.pic-box2{
+    height: 50px;
+    width: 318px;
+    margin: 50px;
+    background-color:black;
+    opacity: 0.8;
+}
+.picbox3{
+    height: 50px;
+    width: 318px;
+    margin: 50px;
+    background-color:black;
+    opacity: 0.8;
+}
+.pic-heading1{
+    color: white;
+    bottom: 15px;
+    position: relative;
+    text-align: center;
+}
+.pic-heading2{
+    color: white;
+    bottom: 15px;
+    position: relative; 
+    text-align: center;
+}
+.pic-heading3{
+    color: white;
+    bottom: 15px;
+    position: relative;
+    text-align: center;
+}
+.icons{
+    display: flex;
+}
+.icon-pic{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    
+}
+.icons{
+    display: flex;
+    position: absolute;
+    top: 37px;
+    margin-left: 1080px;
+}
+.icon-heading{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    color: #61122f;
+}
+.I-heading{
+    display: flex;
+    position: absolute;
+    top: 37px;
+    right: 5px;
+}
+/* .yellow-box{
+    display: none;
+} */
+/* .responsive-navbar{
+    display: none;
+} */
+
+
+    
+@media(max-width: 750px){
+    .navbar{
+        height: 442px;
+        width: 100%;
+        background-color: #f6b319;
+        }
+        .aadillogo{
+            display: none;
+        }
+        .main-heading{
+            right: 475px;
+            bottom: 202px;
+            position: relative;
+        }
+        .star{
+            margin-top: 120px;
+            margin-left: 40px;
+        }
+        .sub-heading{
+            right: 470px;
+            bottom: 208px;
+            position: relative;
+            font-size: 23px;
+        }
+        .number{
+            margin-left: 72%;
+            font-size: 20px;
+            color: #61122f;
+            top: 100px;
+            position: relative;
+            display: none;
+        }
+        /* .number{
+            height: 70px;
+            width: 40%;
+            background-color: red;
+            margin-left: 3px;
+            margin-bottom: 30px;
+        } */
+        .sub-title{
+            display: none;
+        }
+        .purple-box{
+            height: 1300px;
+            width: 100%;
+        }
+        .image{
+            height: 200px;
+            width: 80%;
+            border-radius : none;
+            position: relative;
+            right: 33px;
+            top: 70px;
+        }
+        .yellow-box{
+            height: 90px;
+            width: 80%;
+            background-color: #f6b319;
+            position: relative;
+            top: 20px;
+            left: 40px;
+            text-align: center;
+        }
+        .food-box{
+            background-color: transparent;
+            height: 1000px;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            right: 260px;
+            position: relative;
+            top: 70px;
+        
+        }
+        .foodpic{
+            height: 200px;
+            width: 70%;
+            position: relative;
+        }
+        .food3{
+            height: 200px;
+            width: 130%;
+            position: relative;
+            right: 33px;
+        }
+        .last-box{
+            height: 650px;
+            width: 100%; 
+            background-color: black;
+        }
+        .pic-box1{
+            position: absolute;
+            right: 32%;
+            width: 230%;
+            bottom: 415%;
+            height: 44px;
+        }
+        .pic-box2{
+            position: absolute;
+            right: 32%;
+            width: 230%;
+            bottom: 209%;
+            height: 44px;
+        }
+        .picbox3{
+            position: relative;
+            right: 120%;
+            width: 450px;
+            
+        }
+        .last-box{
+            height: 859px;
+        }
+        .main-black-box{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            left: -16%;
+        }
+        .black-box1{
+            text-align: center;
+        }
+        .black-box2{
+            text-align: center;
+        }
+        .black-box3{
+            text-align: center;
+        }
+        
+        .icons{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 37px;
+            margin-left: 200px;
+            margin-top: 150px;
+        }
+        .icon-heading{
+            height: 30px;
+            width: 30px;
+            margin: 20px;
+            color: #61122f;
+            
+            }
+        .icon-heading4{
+            height: 30px;
+            width: 30px;
+            /* margin: 20px; */
+            color: #61122f;  
+            bottom: 230px;
+            position: relative;
+            right: 200px;
+        }
+        .I-heading{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 15px;
+            right: 80px;
+        }
+        .icon-pic{
+            height: 30px;
+            width: 30px;
+            margin: 20px;
+        
+        }
+        .icon-pic4{
+            height: 30px;
+            width: 30px;
+            margin: 20px;
+            bottom: 315px;
+            position: relative;
+            left: 200px;
+        }
+}
